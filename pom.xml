@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>had-hospital-service</artifactId>
+	<artifactId>student-complaint-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>had-hospital-service</name>
+	<name>student-complaint-service</name>
 	<description>Patient Service for requesting consents</description>
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
@@ -49,17 +49,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
-			    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>${maven-surefire-plugin.version}</version>
-        <configuration>
-            <!-- Force alphabetical order to have a reproducible build -->
-            <runOrder>alphabetical</runOrder>
-            <useSystemClassLoader>false</useSystemClassLoader>
-        </configuration>
-    </plugin>
+	
 			
 		</plugins>
 		
