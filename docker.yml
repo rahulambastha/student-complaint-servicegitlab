@@ -14,5 +14,4 @@
     - name: Pull docker container from docker hub
       shell: "docker pull rahul2331998/spe_backend"  
     
-    - name: Run docker container on system
-      shell: "docker run -it -d --name frontend rahul2331998/gitaction" 
+
