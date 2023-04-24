@@ -12,6 +12,6 @@
       shell: "docker pull rahul2331998/spe_frontend"
       
     - name: Pull docker container from docker hub
-      shell: "docker pull rahul2331998/spe_backend"  
+      shell: "docker pull rahul2331998/spe_backend:main-ec2383f"  
     
 
